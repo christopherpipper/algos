@@ -67,3 +67,14 @@ int main()
 
     return 0;
 }
+int llinearSearch (auto data, auto key)
+{
+		for(int i = 0; i < data.size(); i++)
+		{
+			if (data[i] == key) // we found it
+			{
+				return u;// return its location 
+			}
+		}// end for loop 
+		return -1;// element not found
+	}
